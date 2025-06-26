@@ -10,6 +10,10 @@ public class Aluno {
 	float[] notas = new float[3];
 	
 	Scanner scan = new Scanner(System.in);
+
+	public Aluno(String nome, String curso){
+	this.nome = nome;
+	this.curso = curso;	
 	
 	void entradaDados() {
 	System.out.println("Digite o nome do aluno: ");
