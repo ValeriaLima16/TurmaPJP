@@ -14,6 +14,7 @@ public class Aluno {
 	public Aluno(String nome, String curso){
 	this.nome = nome;
 	this.curso = curso;	
+	}	
 	
 	void entradaDados() {
 	System.out.println("Digite o nome do aluno: ");
